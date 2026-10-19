@@ -1,8 +1,8 @@
 // Firebase web configuration is public. Never put passwords or service-account keys here.
 window.SITE_ANALYTICS = Object.freeze({
   // Enable only after verifying project ownership and deploying firestore.rules.
-  enabled: false,
-  adminUid: '',
+  enabled: true,
+  adminUid: '50rk6bvr0DaWDRFtwxmKdzefAJ93',
   firebase: {
     apiKey: 'AIzaSyAITEyaECmsDGhinxAzfzRI7saAPCcA6R0',
     authDomain: 'my-website-click-tracking.firebaseapp.com',
