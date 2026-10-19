@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow"><title>Visitor statistics | Dr. Songbo Wu</title>
+  <link rel="stylesheet" href="styles.css?v=20261019-stats"><link rel="stylesheet" href="admin.css">
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js" defer></script>
+  <script src="analytics-config.js" defer></script><script src="admin.js" defer></script>
+</head>
+<body><div class="page-shell stats-shell">
+  <header class="site-header"><div class="topbar"><a class="brand" href="index.html">SONGBO WU</a><a href="index.html">Return to website →</a></div></header>
+  <main class="stats-main"><p class="eyebrow">Private administration</p><h1>Visitor statistics</h1>
+    <p>Public IP addresses, approximate locations and pages visited.</p>
+    <p id="stats-message" class="stats-message" role="status" aria-live="polite"></p>
+    <section id="login-section" class="stats-login" aria-labelledby="login-heading">
+      <h2 id="login-heading">Administrator login</h2>
+      <form id="login-form"><label for="email">Email</label><input type="email" id="email" autocomplete="username" required>
+        <label for="password">Password</label><input type="password" id="password" autocomplete="current-password" required>
+        <button type="submit" id="login-button">Log in</button>
+      </form>
+    </section>
+    <section id="stats-section" hidden aria-label="Visit records">
+      <div class="stats-toolbar"><p id="signed-in-as"></p><div><button id="refresh-button" type="button">Refresh</button> <button id="logout-button" type="button">Log out</button></div></div>
+      <div class="stats-summary"><div><strong id="visit-count">0</strong><span>Loaded page views</span></div><div><strong id="ip-count">0</strong><span>Distinct recorded IPs</span></div><div><strong id="country-count">0</strong><span>Known countries / regions</span></div></div>
+      <p class="publication-note">Counts cover the loaded records. One IP can be shared by multiple people; a VPN or mobile network can change a visitor’s IP. Older records may contain only a country.</p>
+      <label for="visitor-filter">Filter by IP, location or page</label><input id="visitor-filter" type="search" placeholder="Search loaded records">
+      <h2>Visits grouped by IP</h2><div class="stats-table-wrap"><table><caption>Recorded IP addresses in the loaded visits</caption><thead><tr><th>IP address</th><th>Approximate location</th><th>Page views</th><th>First seen</th><th>Last seen</th></tr></thead><tbody id="ip-table-body"></tbody></table></div>
+      <h2>Recent page views</h2><div class="stats-table-wrap"><table><caption>Loaded visits, newest first</caption><thead><tr><th>Time</th><th>IP address</th><th>Approximate location</th><th>Page</th></tr></thead><tbody id="visitor-table-body"></tbody></table></div>
+      <div class="stats-load"><button id="load-more-button" type="button">Load older records</button><span id="loaded-count"></span></div>
+    </section>
+  </main><footer class="site-footer"><div class="footer-inner"><span>Dr. Songbo Wu · Private visitor statistics</span><a href="privacy.html">Visitor privacy</a></div></footer>
+</div></body></html>

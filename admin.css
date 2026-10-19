@@ -1,0 +1,29 @@
+.stats-shell { max-width: 1184px; }
+.stats-main { padding: 36px 32px 48px; }
+.stats-main h1 { font-size: 32px; margin-bottom: 14px; }
+.stats-main h2 { font-size: 23px; margin: 30px 0 14px; }
+.stats-message:empty { display: none; }
+.stats-message { padding: 12px 16px; background: #f0f3f8; border-left: 3px solid var(--accent); overflow-wrap: anywhere; }
+.stats-message[data-error="true"] { background: #faf1ee; border-color: #965b48; }
+.stats-login { max-width: 440px; }
+.stats-main label { display: block; font-size: 17px; margin: 14px 0 6px; }
+.stats-main input { display: block; width: 100%; max-width: 480px; padding: 9px 11px; border: 1px solid var(--option-border); border-radius: 4px; background: #fff; }
+.stats-main button { padding: 7px 14px; border: 1px solid var(--option-border); border-radius: 4px; background: var(--option-bg); font-size: 17px; cursor: pointer; }
+.stats-main button:hover { background: var(--option-active); }
+.stats-main button:disabled { opacity: .55; cursor: default; }
+.stats-login button { margin-top: 20px; }
+.stats-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.stats-toolbar p { font-size: 16px; margin: 0; }
+.stats-summary { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 24px 0 16px; }
+.stats-summary > div { padding: 16px 20px; background: #f3f5f9; border: 1px solid var(--line); border-radius: 5px; }
+.stats-summary strong { display: block; font-size: 29px; color: var(--title-ink); }
+.stats-summary span { font-size: 16px; }
+.stats-table-wrap { overflow-x: auto; border: 1px solid var(--line); }
+.stats-main table { width: 100%; border-collapse: collapse; text-align: left; font-size: 16px; }
+.stats-main caption { text-align: left; font-size: 15px; padding: 10px 12px; background: #f8f9fb; }
+.stats-main th { background: #e9eef5; font-weight: bold; }
+.stats-main th,.stats-main td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.stats-main td:first-child { overflow-wrap: anywhere; }
+.stats-load { display: flex; align-items: center; gap: 16px; margin-top: 20px; font-size: 16px; }
+[hidden] { display: none !important; }
+@media(max-width:720px) { .stats-main { padding: 28px 20px; } .stats-summary { grid-template-columns: 1fr; gap: 10px; } .stats-main table { min-width: 650px; } }
