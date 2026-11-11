@@ -1,94 +1,116 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#172e39"><meta name="description" content="Dr. Songbo Wu — Research Assistant Professor at The Hong Kong Polytechnic University. Radar remote sensing, InSAR and infrastructure monitoring."><title>Dr. Songbo Wu</title><link rel="stylesheet" href="styles.css?v=20261104-editorial"><script src="site.js" defer></script><script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js" defer></script><script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js" defer></script><script src="analytics-config.js" defer></script><script src="analytics.js?v=20261019-ip" defer></script></head>
-<body data-page="home"><div class="page-shell"><a class="skip" href="#main">Skip to content</a>
-<header class="site-header"><div class="topbar"><a class="brand" href="index.html">SONGBO WU</a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="nav" id="site-nav" aria-label="Main navigation"><a href="index.html" class="active" aria-current="page">Home</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="supervision.html">Supervision</a><a href="teaching.html">Teaching</a><a href="experience.html">Background</a><a href="contact.html">Contact</a></nav></div></header>
-
+<html lang="en" data-type="service" data-radius="sharp" data-buttons="solid"><head><meta name="page-type" content="service"><meta name="site-kind" content="other"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#faf9f5"><meta name="description" content="Dr. Songbo Wu — Research Assistant Professor at The Hong Kong Polytechnic University. Radar remote sensing, InSAR and infrastructure monitoring."><title>Dr. Songbo Wu</title><link rel="stylesheet" href="styles.css?v=20261111-research-simulations">
+<link rel="stylesheet" href="assets__taste__motion__motion.css">
+<link rel="stylesheet" href="assets__taste__moments__word-highlight__moment.css">
+<link rel="modulepreload" href="assets__taste__moments__lib.js">
+<link rel="modulepreload" href="assets__taste__moments__word-highlight__moment.js">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script src="assets__taste__motion__motion.js" type="module"></script>
+<script src="assets__taste__moments__moments.js" type="module"></script>
+<meta property="og:title" content="Songbo Wu — Radar remote sensing">
+<meta property="og:description" content="Research on InSAR, infrastructure deformation and coastal change at The Hong Kong Polytechnic University.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://songbogithub.github.io/SongboWU/">
+<meta property="og:image" content="https://songbogithub.github.io/SongboWU/About__songbo-portrait-web.webp">
+<link rel="icon" href="assets__portfolio-mark.svg" type="image/svg+xml">
+<meta name="twitter:card" content="summary_large_image"><script src="site.js?v=20261111-field-notes" defer></script><script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js" defer></script><script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js" defer></script><script src="analytics-config.js" defer></script><script src="analytics.js?v=20261019-ip" defer></script></head>
+<body data-page="home">
+<!-- Academic portfolio: paper and ink, a split portrait, static radar and slope linework. -->
+<header class="site-header nav" data-banner>
+<a class="skip" href="#main">Skip to content</a><div class="topbar wrap"><a class="brand" href="index.html">Songbo Wu</a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">Menu</button><nav class="nav" id="site-nav" aria-label="Main navigation"><a class="nav__link active" href="index.html" aria-current="page">Home</a><a class="nav__link" href="research.html">Research</a><a class="nav__link" href="projects.html">Projects</a><a class="nav__link" href="publications.html">Publications</a><a class="nav__link" href="supervision.html">Supervision</a><a class="nav__link" href="teaching.html">Teaching</a><a class="nav__link" href="experience.html">Background</a><a class="nav__link" href="contact.html">Contact</a></nav></div></header>
 <main id="main" class="academic-home">
-  <section class="home-hero" aria-labelledby="home-name">
-    <div class="home-container home-hero-grid">
-      <div class="home-intro">
-        <p class="section-kicker">Geomatics · Earth observation</p>
-        <h1 id="home-name"><span>Dr.</span> Songbo Wu</h1>
-        <p class="home-role">Research Assistant Professor</p>
+  <section id="home" class="hero hero--split home-hero" data-enter aria-labelledby="home-name">
+    <div class="wrap"><div class="hero-text hero__grid home-hero-grid">
+      <div class="hero__text home-intro">
+        <p class="section-kicker home-identity">Research Assistant Professor · PolyU</p>
+        <h1 id="home-name">Songbo Wu <span>InSAR research</span></h1>
+        <p class="hero__lead home-summary">I use radar observations to measure ground movement and study geohazards, infrastructure and coastal change.</p>
         <p class="home-affiliation">Department of Land Surveying and Geospatial Science<br>The Hong Kong Polytechnic University</p>
-        <p class="home-summary">I use satellite and ground-based radar to measure how cities, infrastructure and coastlines change.</p>
-        <div class="home-actions">
-          <a class="home-button" href="research.html">Explore research <span aria-hidden="true">↗</span></a>
-          <a class="home-text-link" href="experience.html">Academic background <span aria-hidden="true">↗</span></a>
+        <div class="btn-row home-actions">
+          <a class="btn btn--primary" href="research.html">View research <span aria-hidden="true">→</span></a>
+          <a class="m-link home-publication-link" href="publications.html">See publications <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <figure class="home-portrait">
-        <img src="About__songbo-portrait-web.webp" width="760" height="771" alt="Portrait of Dr. Songbo Wu" fetchpriority="high">
-        <figcaption><span>InSAR · Surveying · Geohazards</span><span>Hong Kong</span></figcaption>
-      </figure>
-    </div>
+      <div class="hero__media home-portrait" data-enter-media>
+        <img src="About__songbo-portrait-web.webp" width="760" height="771" alt="Songbo Wu in his office beside a satellite image" data-source="own" data-subject="Songbo Wu" fetchpriority="high">
+      </div>
+    </div></div>
+    <nav class="profile-strip wrap" aria-label="Academic profiles and email">
+      <p>Academic profiles</p>
+      <ul class="profile-links">
+        <li><a href="https://scholar.google.com.hk/citations?user=WvDKduwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><img src="assets__profiles__google-scholar.png" width="24" height="24" alt="">Google Scholar <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://orcid.org/0000-0003-2118-0963" target="_blank" rel="noopener noreferrer"><img src="assets__profiles__orcid.svg" width="24" height="24" alt="">ORCID <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.polyu.edu.hk/lsgs/people/academic-staff/dr-song-bo-wu/" target="_blank" rel="noopener noreferrer"><img src="assets__profiles__polyu.png" width="24" height="24" alt="">PolyU staff profile <span aria-hidden="true">↗</span></a></li>
+        <li><a href="mailto:lssongbo.wu@polyu.edu.hk"><svg class="profile-mail" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="m4 7 8 6 8-6"/></svg>Email</a></li>
+      </ul>
+    </nav>
   </section>
-  <div class="home-profiles">
-    <div class="home-container home-profile-row connect-links"><span class="section-kicker">Academic profiles</span>
-      <a href="mailto:lssongbo.wu@polyu.edu.hk"><svg class="connect-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email ↗</span></a><a href="https://scholar.google.com.hk/citations?user=WvDKduwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><svg class="connect-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m2 9 10-6 10 6-10 6Z"/><path d="M6 12v5c3 3 9 3 12 0v-5M22 9v8"/></svg><span>Google Scholar ↗</span></a><a href="https://orcid.org/0000-0003-2118-0963" target="_blank" rel="noopener noreferrer"><svg class="connect-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><circle cx="7.7" cy="7.7" r=".65" fill="currentColor" stroke="none"/><path d="M7.7 10v6M11 7.7v8.6h2.1a4.3 4.3 0 0 0 0-8.6Z"/></svg><span>ORCID ↗</span></a><a href="https://www.polyu.edu.hk/lsgs/people/academic-staff/dr-song-bo-wu/" target="_blank" rel="noopener noreferrer"><svg class="connect-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 9 9-6 9 6M4 10h16M5 11v8m5-8v8m4-8v8m5-8v8M3 21h18"/></svg><span>PolyU profile ↗</span></a>
-    </div>
-  </div>
-
-  <section class="home-section home-about" id="about" aria-labelledby="home-about-title">
-    <div class="home-container home-split">
-      <div><p class="section-kicker">01 / About</p><h2 id="home-about-title">Measuring change<br>from space and the ground.</h2></div>
-      <div><p>My research uses multi-temporal interferometric synthetic aperture radar (InSAR) to monitor ground deformation and environmental hazards. I combine satellite and ground-based observations to study infrastructure, coastal environments and areas affected by urban construction.</p>
-      <p>I work on multi-sensor data fusion, deformation uncertainty assessment and satellite mapping of construction and land-use change.</p>
-      <a class="home-text-link" href="experience.html">Appointments, education and service <span aria-hidden="true">↗</span></a></div>
-    </div>
-  </section>
-
   <section class="home-section home-research" id="featured-research" aria-labelledby="home-research-title">
-    <div class="home-container">
-      <div class="home-section-head">
-        <div><p class="section-kicker">02 / Research</p><h2 id="home-research-title">Research in focus</h2></div>
-        <a class="home-text-link" href="research.html">Explore all six themes <span aria-hidden="true">↗</span></a>
+    <div class="wrap">
+      <div class="section-head home-section-head">
+        <h2 id="home-research-title">Selected research</h2>
+        <a class="m-link" href="research.html">Explore research <span aria-hidden="true">↗</span></a>
       </div>
       <div class="home-research-grid">
-        <a class="home-research-card" href="research.html#methods">
-          <div class="home-card-image"><img src="Research_Interests__papers__pixelwise-building-results-thumb.webp" width="760" height="557" loading="lazy" decoding="async" alt="Radar deformation retrieval results over buildings"></div>
-          <div class="home-card-copy"><span class="section-kicker">01 / Methods</span><h3>InSAR methods <span aria-hidden="true">↗</span></h3><p>Improving the reliability of deformation measurements in complex environments.</p></div>
+        <a class="home-research-card card" href="research.html#methods">
+          <div class="home-card-image card__media"><img src="assets__research-covers__insar-phase-simulation.webp" width="960" height="592" loading="lazy" decoding="async" alt=""></div>
+          <div class="home-card-copy"><h3>InSAR methods</h3><span class="card-arrow" aria-hidden="true">↗</span><p>Estimating surface deformation from satellite radar, with attention to measurement uncertainty.</p></div>
         </a>
-        <a class="home-research-card" href="research.html#infrastructure">
-          <div class="home-card-image"><img src="Research_Interests__papers__tokwawan-2d-deformation-thumb.webp" width="760" height="664" loading="lazy" decoding="async" alt="Deformation maps and cross sections around To Kwa Wan station"></div>
-          <div class="home-card-copy"><span class="section-kicker">02 / Infrastructure</span><h3>Infrastructure stability <span aria-hidden="true">↗</span></h3><p>Tracking deformation in buildings, bridges and transport networks.</p></div>
+        <a class="home-research-card card" href="research.html#infrastructure">
+          <div class="home-card-image card__media"><img src="assets__research-covers__bridge-deflection-simulation.webp" width="960" height="592" loading="lazy" decoding="async" alt=""></div>
+          <div class="home-card-copy"><h3>Radar monitoring for infrastructure</h3><span class="card-arrow" aria-hidden="true">↗</span><p>Measuring deformation in buildings, bridges and rail infrastructure.</p></div>
         </a>
-        <a class="home-research-card" href="research.html#reclamation">
-          <div class="home-card-image"><img src="Research_Interests__papers__hkia-settlement-map-thumb.webp" width="760" height="535" loading="lazy" decoding="async" alt="Maps of land settlement at Hong Kong International Airport"></div>
-          <div class="home-card-copy"><span class="section-kicker">03 / Coasts</span><h3>Coastal change <span aria-hidden="true">↗</span></h3><p>Reconstructing long-term settlement and studying changes in reclaimed and coastal land.</p></div>
+        <a class="home-research-card card" href="research.html#reclamation">
+          <div class="home-card-image card__media"><img src="assets__research-covers__tidal-terrain-simulation.webp" width="960" height="592" loading="lazy" decoding="async" alt=""></div>
+          <div class="home-card-copy"><h3>Radar mapping of coasts</h3><span class="card-arrow" aria-hidden="true">↗</span><p>Measuring settlement at Hong Kong International Airport and across reclaimed land.</p></div>
         </a>
       </div>
+      <p class="home-research-note">Cover images show simulated examples.</p>
     </div>
   </section>
-
   <section class="home-section home-publications" id="recent-work" aria-labelledby="home-papers-title">
-    <div class="home-container">
-      <div class="home-section-head">
-        <div><p class="section-kicker">03 / Publications</p><h2 id="home-papers-title">Recent work</h2></div>
-        <a class="home-text-link" href="publications.html">Browse all publications <span aria-hidden="true">↗</span></a>
+    <div class="wrap">
+      <div class="section-head home-section-head">
+        <h2 id="home-papers-title">Recent publications</h2>
+        <a class="m-link" href="publications.html">See all publications <span aria-hidden="true">↗</span></a>
       </div>
+      <div class="publications-split"><div>
       <ul class="home-paper-list">
-        <li><time datetime="2026">2026</time><div><h3><a href="https://doi.org/10.1016/j.isprsjprs.2026.09.030" target="_blank" rel="noopener noreferrer">HotSAM: A Hotspot-Spatial-Adaptive Multi-Resolution Framework for Efficient Long-Term Deformation Monitoring in Terrestrial Radar Interferometry <span aria-hidden="true">↗</span></a></h3><p>Liu, Y., Zhang, Z., <strong>Wu, S.*</strong>, and Ding X. <span class="paper-divider">·</span> ISPRS Journal of Photogrammetry and Remote Sensing, vol. 242, pp. 898-913.</p></div></li>
-        <li><time datetime="2026">2026</time><div><h3><a href="https://doi.org/10.1016/j.srs.2026.100373" target="_blank" rel="noopener noreferrer">A Novel Two-Stage Adversarial Joint Learning Model for Reconstructing InSAR Phase in Decorrelated Areas <span aria-hidden="true">↗</span></a></h3><p>Abdallah, M., <strong>Wu, S.*</strong>, and Ding, X. <span class="paper-divider">·</span> Science of Remote Sensing, 13, 100373.</p></div></li>
-        <li><time datetime="2026">2026</time><div><h3><a href="https://doi.org/10.1016/j.rsase.2026.101872" target="_blank" rel="noopener noreferrer">Comparative Analysis of PS-InSAR and DS-InSAR for Deformation Monitoring of Transportation Infrastructure in Greater Bay Area, China <span aria-hidden="true">↗</span></a></h3><p><strong>Wu, S.</strong>, Zhang, B., Li, Y., Xiong, S., &amp; Ding, X. <span class="paper-divider">·</span> Remote Sensing Applications: Society and Environment, 101872.</p></div></li>
+        <li><time datetime="2026">2026</time><div><h3><a href="https://doi.org/10.1016/j.isprsjprs.2026.09.030" target="_blank" rel="noopener noreferrer">HotSAM: A Hotspot-Spatial-Adaptive Multi-Resolution Framework for Efficient Long-Term Deformation Monitoring in Terrestrial Radar Interferometry</a></h3><p>Liu, Y., Zhang, Z., <strong>Wu, S.*</strong>, and Ding X. <span class="paper-divider">·</span> ISPRS Journal of Photogrammetry and Remote Sensing, vol. 242, pp. 898-913.</p></div></li>
+        <li><time datetime="2026">2026</time><div><h3><a href="https://doi.org/10.1016/j.srs.2026.100373" target="_blank" rel="noopener noreferrer">A Novel Two-Stage Adversarial Joint Learning Model for Reconstructing InSAR Phase in Decorrelated Areas</a></h3><p>Abdallah, M., <strong>Wu, S.*</strong>, and Ding, X. <span class="paper-divider">·</span> Science of Remote Sensing, 13, 100373.</p></div></li>
       </ul>
       <p class="home-paper-note">* indicates work completed under my supervision.</p>
+      </div>
+      <div class="publication-visual"><img src="Research_Interests__papers__hotsam-publications.webp" width="720" height="788" loading="lazy" decoding="async" alt="HotSAM validation plots comparing terrestrial radar deformation time series" data-source="own" data-subject="HotSAM radar interferometry research"></div>
+      </div>
     </div>
   </section>
-
-  <section class="home-section home-updates" aria-labelledby="home-updates-title">
-    <div class="home-container home-split">
-      <div><p class="section-kicker">04 / Updates</p><h2 id="home-updates-title">Latest updates</h2><a class="home-text-link" href="projects.html">View research projects <span aria-hidden="true">↗</span></a></div>
-      <div class="news-item"><time datetime="2026">2026</time><p>Leading an MTR Research Funding project on a smart satellite monitoring system for Hong Kong MTR ground stability.</p></div><div class="news-item"><time datetime="2026">2026</time><p>New work on InSAR phase reconstruction, terrestrial radar monitoring and transportation infrastructure deformation is listed on the <a href="publications.html">publications page</a>.</p></div><div class="news-item"><time datetime="2025">2025</time><p>Secured NSFC support for sequential phase unwrapping and parameter estimation in long time-series InSAR.</p></div></div>
-
-    </div>
-  </section>
-
-  <section class="home-section home-contact" aria-labelledby="home-contact-title">
-    <div class="home-container home-section-head">
-      <div><p class="section-kicker">05 / Contact</p><h2 id="home-contact-title">Let’s connect.</h2><p>I welcome academic enquiries and research collaboration.</p></div>
-      <a class="home-button" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a>
+  <section class="home-section home-projects" id="selected-projects" aria-labelledby="home-projects-title">
+    <div class="wrap">
+      <div class="section-head home-section-head">
+        <h2 id="home-projects-title">Research projects</h2>
+        <a class="m-link" href="projects.html">See all projects <span aria-hidden="true">↗</span></a>
+      </div>
+      <ul class="home-project-list">
+        <li><p class="home-project-meta">MTR Research Funding · 2026</p><h3>Satellite monitoring of ground stability for Hong Kong MTR</h3></li>
+        <li><p class="home-project-meta">NSFC · 2025</p><h3>Sequential phase unwrapping and parameter estimation for long InSAR time series</h3></li>
+      </ul>
     </div>
   </section>
 </main>
-<footer class="site-footer"><div class="footer-inner"><span>© 2026 Dr. Songbo Wu</span><span>The Hong Kong Polytechnic University</span><span><a href="contact.html">Contact</a> · <a href="privacy.html">Visitor privacy</a></span></div></footer></div></body></html>
+<footer class="site-footer closing home-section home-about" id="about" aria-labelledby="home-about-title">
+    <div class="wrap">
+      <div class="closing__cta" data-moment="word-highlight">
+      <h2 id="home-about-title" class="section-kicker">Research approach</h2>
+      <p class="mo-wh__text home-statement">I combine observations from satellites and ground-based instruments to study <strong>how the ground moves</strong> and how that movement affects the structures built on it.</p>
+      <div class="home-about-grid">
+        <div><h3>University affiliation</h3><p>Department of Land Surveying and Geospatial Science, The Hong Kong Polytechnic University.</p>
+        <a class="m-link" href="experience.html">View academic background <span aria-hidden="true">↗</span></a></div>
+        <div><h3>Research enquiries</h3><p>For collaboration, supervision and other academic enquiries.</p>
+        <a class="btn btn--primary" href="contact.html">Contact Songbo Wu <span aria-hidden="true">↗</span></a></div>
+      </div>
+      </div>
+      <div class="footer-inner footer__legal"><span>© 2026 Dr. Songbo Wu</span><a href="privacy.html">Visitor privacy</a></div>
+    </div>
+</footer>
+</body></html>
